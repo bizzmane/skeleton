@@ -4,5 +4,5 @@ from .context import skeleton
 
 import pytest
 
-def test_absolute_truth_and_meaning(self):
+def test_absolute_truth_and_meaning():
     assert True
