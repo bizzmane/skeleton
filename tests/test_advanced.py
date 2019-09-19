@@ -5,5 +5,5 @@ from .context import skeleton
 import pytest
 
 def test_thoughts():
-    assertIsNone(skeleton.hmm())
+    assert isinstance(skeleton.hmm(), str)
 
